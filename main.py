@@ -26,9 +26,10 @@ q1 = Question('Яблуко', 'apple', 'application', 'pineapple', 'apply')
 q2 = Question('Дім', 'house', 'horse', 'hurry', 'hour')
 q3 = Question('Миша', 'mouse', 'mouth', 'muse', 'museum')
 q4 = Question('Число', 'number', 'digit', 'amount', 'summary')
+q5 = Question('Мед', 'Honey', 'Sweets', 'Pollen', 'bee food')
 
 radio_buttons = [rbtrn_1, rbtrn_2, rbtrn_3, rbtrn_4]
-questions = [q1, q2, q3, q4]
+questions = [q1, q2, q3, q4, q5]
 
 def new_question():
     global cur_quest
